@@ -19,14 +19,14 @@
 
 // console.log("3." + currentOS);
 
-// const path = require("path");
+// path = require("path");
 
-// console.log(path.sep);
-// const filePath = path.join("/content", "subfolder", "test.txt");
+//console.log(path.sep);
+//const filePath = path.join("/content", "subfolder", "test.txt");
 // console.log("4." + filePath);
 
-// const base = path.basename(filePath);
-// console.log("5." + base);
+//const base = path.basename(filePath);
+//console.log("5." + base);
 
 // const _ = require("lodash");
 // const items = [1, [2, [3, [4]]]];
@@ -117,15 +117,16 @@
 //   });
 // };
 
-const EventEmitter = require("events");
+// const EventEmitter = require("events");
 
-const customEmmitter = new EventEmitter();
+// const customEmmitter = new EventEmitter();
 
-customEmmitter.emit("response");
-customEmmitter.on("response", () => {
-  console.log(`data received`);
-});
+// customEmmitter.on("response", (name, id) => {
+//   console.log(`data received user ${name} with: ${id}`);
+// });
 
-customEmmitter.on("response", () => {
-  console.log(`other logic`);
-});
+// customEmmitter.on("response", () => {
+//   console.log(`other logic`);
+// });
+
+// customEmmitter.emit("response", "thoai", 1);
